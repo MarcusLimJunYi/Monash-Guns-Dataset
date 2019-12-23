@@ -1,1 +1,1 @@
-This is a modified implementation of M2DET with Generalized Intersection of Union(GIoU) Loss.
+Monash Guns Dataset will be released here shortly!
