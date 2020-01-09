@@ -1,10 +1,10 @@
 # Monash Guns Dataset
 The Monash Guns Dataset journal paper is currently being peer reviewed. 
 
-The full dataset and models will be released here upon completion of review.
+The full dataset and model will be released here upon completion of review.
 
 ## Conference paper
-A brief summary of our dataset and model was recently presented at the 2019 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA-ASC),
+A brief summary of our dataset and model was recently presented at the 2019 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA-ASC).
 
 The title of the conference paper: *Gun Detection in Surveillance Videos using Deep Neural Networks* [Link to paper](https://marcuslimjunyi.github.io/papers/Gun%20Detection%20in%20Surveillance%20Videos%20using%20Deep%20Neural%20Networks.pdf)
 
