@@ -13,7 +13,7 @@ Title: Gun Detection in Surveillance Videos using Deep Neural Networks [Paper Li
 1) All images are scaled down from 1920x1080 pixels to 512x512 for training and testing purposes.
 2) Data format and annotations follow PASCAL VOC format
 
-## Proposed Object Detector
+## Proposed Gun Detector
 ### M2Det
 In our paper, we employ M2Det with Focal Loss to address foreground-background class imbalance during training.
 
