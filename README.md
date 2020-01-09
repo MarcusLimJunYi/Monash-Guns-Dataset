@@ -7,5 +7,7 @@ Title: Gun Detection in Surveillance Videos using Deep Neural Networks [Paper Li
 
 ## Sample Training Images in our Dataset
 <img src="/images/pistol_1.jpg" width="200">
+<img src="/images/pistol_1268.jpg" width="200">
+<img src="/images/pistol_1476.jpg" width="200">
 
 
