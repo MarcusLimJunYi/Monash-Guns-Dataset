@@ -1,5 +1,6 @@
 # Monash Guns Dataset
-The Monash Guns Dataset paper is currently being peer reviewed under the Neurocomputing journal by Elsevier. 
+The Monash Guns Dataset journal paper is currently being peer reviewed. 
+
 The full dataset and models will be released here upon completion of review.
 
 Our conference paper has been accepted by APSIPA 2019,
