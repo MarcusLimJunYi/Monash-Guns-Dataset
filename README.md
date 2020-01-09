@@ -13,7 +13,7 @@ All images are scaled down from 1920x1080 pixels to 512x512 for training and tes
 
 ## Proposed Object Detector
 ### M2Det
-In our paper, we employ M2Det with Focal Loss during training to reduce foreground-background class imbalance.
+In our paper, we employ M2Det with Focal Loss to address foreground-background class imbalance during training.
 
 All credits of M2Det go to the authors Qijie Zhao, Tao Sheng, Yongtao Wang, Zhi Tang, Ying Chen, Ling Cai and Haibing Ling.
 
