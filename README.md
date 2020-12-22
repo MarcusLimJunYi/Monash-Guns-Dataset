@@ -34,6 +34,20 @@ git clone https://github.com/MarcusLimJunYi/Monash-Guns-Dataset.git
 sh make.sh
 ```
 
+## Dataset Preparation
+Download [HICO-Det](https://drive.google.com/open?id=1QZcJmGVlF9f4h-XLWe9Gkmnmj2z1gSnk) datasets. Organize them in `dataset` folder as follows:
+
+    ~~~
+    |-- dataset/
+    |   |-- <dataset name>/
+    |       |-- images
+    |       |-- annotations
+    |       |-- MGD2020
+    |           |-- Annotations
+    |           |-- ImageSets
+    |           |-- JPEGImages
+    ~~~
+
 ## Training and Testing
 ### Training
 
@@ -54,7 +68,21 @@ All training configs and model configs are written well in configs/*.py.
   python test.py -c=configs/m2det512_resnet101.py -m=weights/MGD_GIoU_FL_FFMv3.pth --test
 ```
 
-## Reference to baseline M2Det
+## Citation
+Please consider citing this project in your publications if it helps your research. The following is a BibTeX reference. The BibTeX entry requires the url LaTeX package.
+
+~~~
+@article{lim97deep,
+  title={Deep multi-level feature pyramids: Application for non-canonical firearm detection in video surveillance},
+  author={Lim, JunYi and Al Jobayer, Md Istiaque and Baskaran, Vishnu Monn and Lim, Joanne MunYee and See, John and Wong, KokSheik},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={97},
+  pages={104094},
+  publisher={Elsevier}
+}
+~~~
+
+## Acknowledgement
 In our paper, we employ M2Det with GIoU Loss and Focal Loss to improve bounding box regression and address foreground-background class imbalance during training.
 
 All credits of M2Det go to the authors Qijie Zhao, Tao Sheng, Yongtao Wang, Zhi Tang, Ying Chen, Ling Cai and Haibing Ling.
