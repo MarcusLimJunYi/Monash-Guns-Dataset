@@ -4,8 +4,6 @@ Hold your horses fellow researchers i'm currently updating the repo now and will
 # Monash Guns Dataset
 Our journal paper, "Deep multi-level feature pyramids: Application for non-canonical firearm detection in video surveillance" has been accepted by EAAI and can be found [here](https://www.sciencedirect.com/science/article/abs/pii/S0952197620303456). 
 
-The full dataset and model will be released here upon completion of review.
-
 ## Conference paper
 A brief summary of our dataset and model was recently presented at the 2019 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA-ASC).
 
@@ -20,7 +18,7 @@ The title of the conference paper: *Gun Detection in Surveillance Videos using D
 
 ## Proposed Gun Detector
 ### M2Det
-In our paper, we employ M2Det with Focal Loss to address foreground-background class imbalance during training.
+In our paper, we employ M2Det with GIoU Loss and Focal Loss to improve bounding box regression and address foreground-background class imbalance during training.
 
 All credits of M2Det go to the authors Qijie Zhao, Tao Sheng, Yongtao Wang, Zhi Tang, Ying Chen, Ling Cai and Haibing Ling.
 
