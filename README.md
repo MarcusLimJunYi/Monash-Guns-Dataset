@@ -14,7 +14,9 @@ The title of the conference paper: *Gun Detection in Surveillance Videos using D
 
 ### Details of the dataset:
 1) All images are scaled down from 1920x1080 pixels to 512x512 for training and testing purposes.
-2) Data format and annotations follow PASCAL VOC format
+2) Data format and annotations follow the PASCAL VOC format.
+
+# Getting Started
 
 ## Credits to the authors
 ### M2Det
