@@ -54,8 +54,7 @@ All training configs and model configs are written well in configs/*.py.
   python test.py -c=configs/m2det512_resnet101.py -m=weights/MGD_GIoU_FL_FFMv3.pth --test
 ```
 
-## Credits to the authors
-### M2Det
+## Reference to baseline M2Det
 In our paper, we employ M2Det with GIoU Loss and Focal Loss to improve bounding box regression and address foreground-background class imbalance during training.
 
 All credits of M2Det go to the authors Qijie Zhao, Tao Sheng, Yongtao Wang, Zhi Tang, Ying Chen, Ling Cai and Haibing Ling.
