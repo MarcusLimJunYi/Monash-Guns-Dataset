@@ -1,7 +1,7 @@
 # Updating repo now, apologize for the delay
 Hold your horses fellow researchers i'm currently updating the repo now and will release the dataset within the coming days. Hey, it feels great to have your first journal paper accepted, why not chill abit ayy. Just kidding, im actually working on a second journal paper to be submitted coming February hence the delay. No worries folks, im workin on it now and open to assist you fellas on any bugs/fixes. 
   
-# Monash Guns Dataset
+## Monash Guns Dataset
 Our journal paper, "Deep multi-level feature pyramids: Application for non-canonical firearm detection in video surveillance" has been accepted by EAAI and can be found [here](https://www.sciencedirect.com/science/article/abs/pii/S0952197620303456). 
 
 ## Conference paper
