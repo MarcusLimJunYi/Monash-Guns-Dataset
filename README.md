@@ -1,5 +1,5 @@
 # Monash Guns Dataset
-The Monash Guns Dataset journal paper has been accepted by EAAI and can be found at [Link to journal paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197620303456). 
+The Monash Guns Dataset journal paper has been accepted by EAAI and can be found [here](https://www.sciencedirect.com/science/article/abs/pii/S0952197620303456). 
 
 The full dataset and model will be released here upon completion of review.
 
