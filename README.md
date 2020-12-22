@@ -35,7 +35,7 @@ sh make.sh
 ```
 
 ## Dataset Preparation
-Download [HICO-Det](https://drive.google.com/open?id=1QZcJmGVlF9f4h-XLWe9Gkmnmj2z1gSnk) datasets. Organize them in `dataset` folder as follows:
+Download the [MGD]() dataset. Organize them in `dataset` folder as follows:
 
     ~~~
     |-- dataset/
