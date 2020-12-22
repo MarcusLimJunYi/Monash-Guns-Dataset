@@ -16,7 +16,7 @@ The title of the conference paper: *Gun Detection in Surveillance Videos using D
 1) All images are scaled down from 1920x1080 pixels to 512x512 for training and testing purposes.
 2) Data format and annotations follow PASCAL VOC format
 
-## Proposed Gun Detector
+## Credits to the authors
 ### M2Det
 In our paper, we employ M2Det with GIoU Loss and Focal Loss to improve bounding box regression and address foreground-background class imbalance during training.
 
