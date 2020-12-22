@@ -17,7 +17,6 @@ The title of the conference paper: *Gun Detection in Surveillance Videos using D
 2) Data format and annotations follow the PASCAL VOC format.
 
 ## Getting Started
-## Preparation
 - Prepare python environment using [Anaconda3](https://www.anaconda.com/download/).
 - Install deeplearning framework, i.e., pytorch, torchvision and other libs.
 
@@ -37,30 +36,23 @@ sh make.sh
 
 ## Training and Testing
 ### Training
-1, **We provide evaluation script for M2Det:**
-```Shell
-  python test.py -c=configs/m2det512_vgg.py -m=weights/m2det512_resnet101.pth
-```
-Then, the evaluated result is shown as:
-
-<div align=center><img src="imgs/vis/eval_result.png" width="450" hegiht="163" align=center />
-
-<div align=left>
-
- Even higher than our paper's original result! :)
-
-**2, You can run the test set with M2Det and submit to get a score:**
-```Shell
-  python test.py -c=configs/m2det512_resnet101.py -m=weights/MGD_GIoU_FL_FFMv3.pth --test
-```
-
-## Training
 
 As simple as [demo](#Demo) and [evaluation](#Evaluation), Just use the train script:
 ```Shell
   CUDA_VISIBLE_DEVICES=0,1 python train.py -c=configs/m2det512_resnet101.py --ngpu 2 -t True
 ```
 All training configs and model configs are written well in configs/*.py.
+
+### Test
+1, We provide evaluation script for M2Det:
+```Shell
+  python test.py -c=configs/m2det512_resnet101.py -m=weights/MGD_GIoU_FL_FFMv3.pth
+```
+
+2, You can run the test set with M2Det and submit to get a score:
+```Shell
+  python test.py -c=configs/m2det512_resnet101.py -m=weights/MGD_GIoU_FL_FFMv3.pth --test
+```
 
 ## Credits to the authors
 ### M2Det
