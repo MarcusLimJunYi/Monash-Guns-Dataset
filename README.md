@@ -16,7 +16,52 @@ The title of the conference paper: *Gun Detection in Surveillance Videos using D
 1) All images are scaled down from 1920x1080 pixels to 512x512 for training and testing purposes.
 2) Data format and annotations follow the PASCAL VOC format.
 
-# Getting Started
+## Getting Started
+## Preparation
+- Prepare python environment using [Anaconda3](https://www.anaconda.com/download/).
+- Install deeplearning framework, i.e., pytorch, torchvision and other libs.
+
+```Shell
+conda install pytorch==1.7.1 torchvision -c pytorch
+pip install opencv-python tqdm
+```
+- Clone this repository.
+```Shell
+git clone https://github.com/MarcusLimJunYi/Monash-Guns-Dataset.git
+```
+- Compile the nms and coco tools:
+
+```Shell
+sh make.sh
+```
+
+## Training and Testing
+### Training
+1, **We provide evaluation script for M2Det:**
+```Shell
+  python test.py -c=configs/m2det512_vgg.py -m=weights/m2det512_vgg.pth
+```
+Then, the evaluated result is shown as:
+
+<div align=center><img src="imgs/vis/eval_result.png" width="450" hegiht="163" align=center />
+
+<div align=left>
+
+ Even higher than our paper's original result! :)
+
+**2, You can run the test set with M2Det and submit to get a score:**
+```Shell
+  python test.py -c=configs/m2det512_vgg.py -m=weights/m2det512_vgg.pth --test
+```
+and submit the result file to [CODALAB webpage](https://competitions.codalab.org/competitions/5181#participate).
+
+## Training
+
+As simple as [demo](#Demo) and [evaluation](#Evaluation), Just use the train script:
+```Shell
+  CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py -c=configs/m2det512_vgg.py --ngpu 4 -t True
+```
+All training configs and model configs are written well in configs/*.py.
 
 ## Credits to the authors
 ### M2Det
