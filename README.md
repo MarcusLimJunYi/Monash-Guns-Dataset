@@ -39,7 +39,7 @@ Download the [MGD]() dataset. Organize them in `dataset` folder as follows:
 
     ~~~
     |-- dataset/
-    |   |-- <dataset name>/
+    |   |-- MGD/
     |       |-- images
     |       |-- annotations
     |       |-- MGD2020
