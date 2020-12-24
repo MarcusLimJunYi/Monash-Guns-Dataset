@@ -56,7 +56,7 @@ As simple as [demo](#Demo) and [evaluation](#Evaluation), Just use the train scr
 All training configs and model configs are written well in configs/*.py.
 
 ### Test
-We provide evaluation script for M2Det:
+We provide evaluation script and weights for our proposed M2Det variant [here](https://drive.google.com/file/d/1a5nNLZbwW2ZYMWzEzZfdCOguhxiOrJli/view?usp=sharing):
 ```Shell
   python test.py -c=configs/m2det512_resnet101.py -m=weights/MGD_GIoU_FL_FFMv3.pth
 ```
