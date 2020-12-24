@@ -35,7 +35,7 @@ sh make.sh
 ```
 
 ## Dataset Preparation
-Download the [MGD]() dataset. Organize them in `dataset` folder as follows:
+Download the [MGD](https://drive.google.com/file/d/12ly_8zSpuPTMoYU3Bw1zGkObPU_RmbK-/view?usp=sharing) dataset. Organize them in `dataset` folder as follows:
 
     ~~~
     |-- dataset/
