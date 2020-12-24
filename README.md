@@ -49,14 +49,14 @@ Download the [MGD]() dataset. Organize them in `dataset` folder as follows:
 ## Training and Testing
 ### Training
 
-As simple as [demo](#Demo) and [evaluation](#Evaluation), Just use the train script:
+The train script:
 ```Shell
   CUDA_VISIBLE_DEVICES=0,1 python train.py -c=configs/m2det512_resnet101.py --ngpu 2 -t True
 ```
 All training configs and model configs are written well in configs/*.py.
 
 ### Test
-We provide evaluation script and weights for our proposed M2Det variant [here](https://drive.google.com/file/d/1a5nNLZbwW2ZYMWzEzZfdCOguhxiOrJli/view?usp=sharing):
+Evaluation script and weights for our proposed M2Det variant [here](https://drive.google.com/file/d/1a5nNLZbwW2ZYMWzEzZfdCOguhxiOrJli/view?usp=sharing):
 ```Shell
   python test.py -c=configs/m2det512_resnet101.py -m=weights/MGD_GIoU_FL_FFMv3.pth
 ```
